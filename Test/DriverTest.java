@@ -7,7 +7,7 @@ class DriverTest {
 
     @Test
     public void getDriverName(){
-        assertEquals("driver",alan.getDriverName());
+        assertEquals("alan",alan.getDriverName());
     }
 
     @Test
@@ -29,5 +29,4 @@ class DriverTest {
     public void isNotBanned(){
         assertFalse(alan.check_status());
     }
-
 }

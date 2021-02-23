@@ -15,7 +15,8 @@ public class Driver {
     }
 
     private void setDriverNum(int driverNum) throws IllegalArgumentException {
-        if (driverNum < 100) { throw new IllegalArgumentException();
+        if (driverNum < 100) {
+            throw new IllegalArgumentException();
         }
         this.driverNum = driverNum;
     }
